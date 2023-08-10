@@ -1,0 +1,15 @@
+:root {
+	--backgroundColor:var(--grey-50);
+	--textColor:var(--grey-900);
+	--darkThemeBackgroundColor:#333;
+	--darkThemeTextColor:#f0f0f0;
+}
+body {
+	background-color: var(--backgroundColor);
+	color: var(--textColor);
+	transition: 0.35s background ease-in-out, 0.35s color ease-in-out;
+}
+.dark-theme{
+	background: var(--darkThemeBackgroundColor);
+	color: var(--darkThemeTextColor);
+}
