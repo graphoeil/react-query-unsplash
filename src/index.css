@@ -330,7 +330,11 @@ Gallery
 	gap: 2rem;
 }
 .image-container .img {
-	height: 10rem;
+	display: block;
+	height: 300px;
+	width: 100%;
+	object-fit: cover;
+	object-position: center center;
 }
 @media (min-width: 768px) {
 	.image-container {
